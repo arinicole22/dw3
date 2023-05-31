@@ -1,20 +1,13 @@
-import './App.css'
+const Producto = ({subtitulo, descripcion, imagen}) => {
 
-function App() {
-  const apodo = "Arita"
-  const expectativa = "ser desarrolladora full stack"
-  return (
-    <>
-  <h1>¡Hola soy {apodo} (Nicole)!</h1>
-  <p>Mi objetivo es que me gustaría poder llegar a {expectativa}</p>
-  <p>Contanos que más te gustaría hacer con react? ¿Cuales son tus metas como futuro Devs Front-end?</p>
-  <ul>
-    <li>una aplicación para poder manejar algún futuro negocio</li>
-    <li>{expectativa}</li>
-    
-  </ul>
-    </>
-  )
+    return (
+        <div>
+            <h1>{productito}</h1>
+            <p>{productito de clase}</p>
+            <img src={urlimagencita} alt={imagencita}/>
+        </div>
+    )
+
 }
 
-export default App
+export default Producto
